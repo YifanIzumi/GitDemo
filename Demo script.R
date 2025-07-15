@@ -10,7 +10,7 @@ system("git config --global user.email 'izumichyan96@gmail.com'")
 library(dplyr)
 
 dat <- mtcars
-dat <- dat %>% filter(cyl >= 6)
+dat <- dat %>% filter(cyl >= 8)
 
 #---------------------------------
 # 3 Make a commit
